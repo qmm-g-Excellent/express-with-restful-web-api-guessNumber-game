@@ -4,9 +4,7 @@ const app = express();
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
-
 const route = require('./routes/route');
-
 
 route.setRoute(app);
 
